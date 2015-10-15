@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Array	stackar.cc	/^            ElementType *Array;$/;"	m	struct:StackRecord	file:	access:public
+Capacity	stackar.cc	/^            int Capacity;$/;"	m	struct:StackRecord	file:	access:public
+CreateStack	stackar.cc	/^        CreateStack( int MaxElements )$/;"	f	signature:( int MaxElements )
+CreateStack	stackar.h	/^        Stack CreateStack( int MaxElements );$/;"	p	signature:( int MaxElements )
+DisposeStack	stackar.cc	/^        DisposeStack( Stack S )$/;"	f	signature:( Stack S )
+DisposeStack	stackar.h	/^        void DisposeStack( Stack S );$/;"	p	signature:( Stack S )
+ElementType	stackar.h	/^        typedef int ElementType;$/;"	t
+EmptyTOS	stackar.cc	5;"	d	file:
+Error	fatal.h	4;"	d
+FatalError	fatal.h	5;"	d
+IsEmpty	stackar.cc	/^        IsEmpty( Stack S )$/;"	f	signature:( Stack S )
+IsEmpty	stackar.h	/^        int IsEmpty( Stack S );$/;"	p	signature:( Stack S )
+IsFull	stackar.cc	/^        IsFull( Stack S )$/;"	f	signature:( Stack S )
+IsFull	stackar.h	/^        int IsFull( Stack S );$/;"	p	signature:( Stack S )
+MakeEmpty	stackar.cc	/^        MakeEmpty( Stack S )$/;"	f	signature:( Stack S )
+MakeEmpty	stackar.h	/^        void MakeEmpty( Stack S );$/;"	p	signature:( Stack S )
+MinStackSize	stackar.cc	6;"	d	file:
+Pop	stackar.cc	/^        Pop( Stack S )$/;"	f	signature:( Stack S )
+Pop	stackar.h	/^        void Pop( Stack S );$/;"	p	signature:( Stack S )
+Push	stackar.cc	/^        Push( ElementType X, Stack S )$/;"	f	signature:( ElementType X, Stack S )
+Push	stackar.h	/^        void Push( ElementType X, Stack S );$/;"	p	signature:( ElementType X, Stack S )
+STACKSIZE	3-19.cc	6;"	d	file:
+Stack	stackar.h	/^        typedef struct StackRecord *Stack;$/;"	t	typeref:struct:StackRecord
+StackRecord	stackar.cc	/^        struct StackRecord$/;"	s	file:
+StackRecord::Array	stackar.cc	/^            ElementType *Array;$/;"	m	struct:StackRecord	file:	access:public
+StackRecord::Capacity	stackar.cc	/^            int Capacity;$/;"	m	struct:StackRecord	file:	access:public
+StackRecord::TopOfStack	stackar.cc	/^            int TopOfStack;$/;"	m	struct:StackRecord	file:	access:public
+Top	stackar.cc	/^        Top( Stack S )$/;"	f	signature:( Stack S )
+Top	stackar.h	/^        ElementType Top( Stack S );$/;"	p	signature:( Stack S )
+TopAndPop	stackar.cc	/^        TopAndPop( Stack S )$/;"	f	signature:( Stack S )
+TopAndPop	stackar.h	/^        ElementType TopAndPop( Stack S );$/;"	p	signature:( Stack S )
+TopOfStack	stackar.cc	/^            int TopOfStack;$/;"	m	struct:StackRecord	file:	access:public
+_Stack_h	stackar.h	4;"	d
+calculate	calculator.cc	/^calculate( const string &str )$/;"	f	signature:( const string &str )
+infix2postfix	calculator.cc	/^infix2postfix( const vector<string> &vec )$/;"	f	signature:( const vector<string> &vec )
+is_operator	calculator.cc	/^is_operator( const string &str )$/;"	f	signature:( const string &str )
+main	3-19.cc	/^int main( ) $/;"	f	signature:( )
+main	calculator.cc	/^int main( ) $/;"	f	signature:( )
+priority	calculator.cc	/^priority( const string &str1, const string &str2)$/;"	f	signature:( const string &str1, const string &str2)
